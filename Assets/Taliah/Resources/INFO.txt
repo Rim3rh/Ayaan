@@ -1,0 +1,19 @@
+Scripts:
+velocidad del personaje(PlayerController)
+salto del personaje(PlayerController)
+rotacion postsalto del personaje(PlayerController)
+snapeo del personaje dependiendo de la inclinacion de la rampa.(PlayerController)
+Interactuables para aumentar velocidad(Script Propio)
+
+Variables que estaran en el GameManager:
+playerSpeed.
+score.
+remaningTime.
+isGrounded.
+
+*FUNCIONAMIENTO CAMARA*
+Segun aumentase la velocidad del RB, el FOV de la camara aumentaria, haciendo el plano mas grande.
+
+La camara siempre seguiria al personaje en el eje X, menos cuando entremos en algun plano en el que la camara pasaria a estar estatica y el personaje haria un salto(o algo por el estilo)
+
+*FUNCIONAMIENTO PERSONAJE*
